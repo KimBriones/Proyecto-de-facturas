@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Proyecto_de_facturas.Properties
+namespace FACTURA.Properties
 {
 
 

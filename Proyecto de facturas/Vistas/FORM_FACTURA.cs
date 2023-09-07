@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Proyecto_de_facturas
+namespace FACTURA.Vistas
 {
-    public partial class Form1 : Form
+    public partial class FORM_FACTURA : Form
     {
-        public Form1()
+        public FORM_FACTURA()
         {
             InitializeComponent();
         }

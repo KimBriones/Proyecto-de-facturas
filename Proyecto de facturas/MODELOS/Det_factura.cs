@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyecto_de_facturas.MODELOS
+namespace FACTURA.Modelos
 {
     public class Det_factura
     {
+
         private string num_factura;
-        private string Cod_producto;
+        private string cod_producto;
+
         public Det_factura() { }
 
         public string Num_factura { get => num_factura; set => num_factura = value; }
-        public string Cod_producto1 { get => Cod_producto; set => Cod_producto = value; }
+        public string Cod_producto { get => cod_producto; set => cod_producto = value; }
+
     }
 }

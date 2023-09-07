@@ -4,20 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyecto_de_facturas.MODELOS
+namespace FACTURA.Modelos
 {
     public class Producto
     {
-        private string Cod;
+
+        private string cod;
         private string nombre;
-        private string precio;
-        private string stop;
+        private double precio;
+        private int stock;
+
         public Producto() { }
 
-        public string Cod1 { get => Cod; set => Cod = value; }
+        public string Cod { get => cod; set => cod = value; }
         public string Nombre { get => nombre; set => nombre = value; }
-        public string Precio { get => precio; set => precio = value; }
-        public string Stop { get => stop; set => stop = value; }
+        public double Precio { get => precio; set => precio = value; }
+        public int Stock { get => stock; set => stock = value; }
+
     }
-    
 }
